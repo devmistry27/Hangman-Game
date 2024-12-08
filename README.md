@@ -74,7 +74,7 @@ Contributions are welcome! If you want to improve the game or fix bugs:
 ---
 
 ### 🧑‍💻 Author
-**Your Name**  
+**Dev Mistry**  
 [GitHub Profile](https://github.com/devmistry27)
 
 ---
