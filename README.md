@@ -29,7 +29,7 @@ Make sure you have Python installed on your system:
 #### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/hangman-game.git
+   git clone https://github.com/devmistry27/hangman-game.git
    ```
 2. Navigate to the project folder:
    ```bash
