@@ -6,7 +6,7 @@ The Hangman game is a classic word-guessing game built with Python. It's a fun a
 ---
 
 ### 📋 Features
-- **Random word selection** from a predefined list.
+- **Random word selection** from a categorized list.
 - **Lives system** to challenge players.
 - User-friendly input and feedback for every guess.
 - Visual representation of the hangman as the game progresses.

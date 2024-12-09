@@ -1,16 +1,24 @@
 import random
-from words import words
+from words import categories
 from hangman_visual import lives_visual_dict
 import string
 
-def getValidWord(words):
-    word = random.choice(words)
+def getValidWord(category, category_words):
+    word = random.choice(category_words)
     while "-" in word or " " in word:
-        word = random.choice(words)
+        word = random.choice(category_words)
+    categories[category].remove(word)
     return word.upper()
     
 def hangman():
-    word = getValidWord(words)
+    category = random.choice(list(categories.keys()))
+    print(f"The category is: {category}")
+    
+    if not categories[category]:
+        print(f"No more words in the {category} category. Please restart the game!")
+        return
+    
+    word = getValidWord(category, categories[category])
     wordLetters = set(word)
     alphabet = set(string.ascii_uppercase)
     usedLetters = set()
